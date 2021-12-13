@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body onload="startGame()">
+
+<div style="display: none">
+  <img src="img/board.jpeg" id="board-image" />
+  <img src="img/dice.png" id="dice-image" />
+  <img src="img/stones/blue.png" id="stone-blue" />
+  <img src="img/stones/green.png" id="stone-green" />
+  <img src="img/stones/orange.png" id="stone-orange" />
+  <img src="img/stones/purple.png" id="stone-purple" />
+  <img src="img/stones/red.png" id="stone-red" />
+  <img src="img/stones/white.png" id="stone-white" />
+  <img src="img/stones/yellow.png" id="stone-yellow" />
+</div>
+<div style="text-align: center; margin-top: 20px;">
+  <canvas id="board"></canvas>
+</div>
+
+<script type="text/javascript" src="js/canvas.js"></script>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
